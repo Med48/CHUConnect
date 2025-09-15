@@ -1,0 +1,68 @@
+# ==========================
+# Ignorer les fichiers sensibles
+# ==========================
+.env
+.env.example
+*.env
+
+*.bat
+
+# ==========================
+# Ignorer les fichiers Word ou PDF
+# ==========================
+*.docx
+*.pdf
+
+# ==========================
+# Ignorer les images (jpg, png, jpeg, gif, etc.)
+# ==========================
+*.JPG
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.bmp
+*.tiff
+
+# ==========================
+# Ignorer Python (backend)
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+vchu/
+venv/
+.env/
+.venv/
+
+# ==========================
+# Ignorer Node.js / React (frontend)
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build et dist
+dist/
+build/
+
+# ==========================
+# Ignorer IDE / éditeurs
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Autres fichiers temporaires
+# ==========================
+.DS_Store
+Thumbs.db
